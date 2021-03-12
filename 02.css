@@ -1,0 +1,76 @@
+.nav{
+	margin:0 0;
+}
+.daohao{
+	width: 90%;
+}
+.text-aa{
+	width: 100%;
+	top: 40%;
+}
+.tpjs{
+	display: block;
+	margin: 0 0;
+}
+.tpjs ul{
+	padding: 0 0;
+	text-align: center;
+	padding-top: 10px;
+}
+.brjs img{
+	width: 180px;
+	height: 210px;
+	position: relative;
+}
+.wzjs{
+	display:none;
+}
+.ybjs li{
+	font-size: 8px;
+	margin-top: -5%;
+}
+.zyjn2 li{
+	width: 80px;
+	height: 80px;
+}
+.zyjn2,.zyjn3{
+	margin: 0 0;
+}
+.zpzs2 ul li{
+	margin: 30px 2px;
+}
+/* .zpzs01 ,.zpzs02 ,.zpzs03 ,.zpzs04 {
+	margin:40px 10px;
+} */
+
+.zpzs01 ,.zpzs02 ,.zpzs03 ,.zpzs04 ,.zpzs05 ,
+.zpzs06 ,.zpzs07 ,.zpzs08 ,.zpzs09 {
+	width: 140px;
+	height: 140px;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+.zpzs09{
+	width: 0px;
+	height: 0px;
+}
+.zpzs09 img{
+	width: 0px;
+	height: 0px;
+}
+.ckgd a{
+	margin-left: -40px;
+}
+.lxfs01, .lxfs02,.lxfs03,.lxfs04{
+	margin: 15px 5px;
+	width: 140px;
+	height: 100px;
+}
+.lxfs01 img, .lxfs02 img,.lxfs03 img,.lxfs04 img{
+	margin-left: 45px;
+	width: 50px;
+	height: 50px;
+}
+.lxfs01 p, .lxfs02 p,.lxfs03 p,.lxfs04 p{
+	font-size: 14px;
+}

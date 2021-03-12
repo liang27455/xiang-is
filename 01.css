@@ -1,0 +1,356 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	overflow-x: hidden;
+	background-image: url(https://s3.ax1x.com/2021/03/11/6tMfwn.md.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(220,220,220,0.4);
+	position: absolute;
+	/* position: fixed; */
+	transition: 0.6S;
+}
+.nav{
+	margin: 0 20%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo img{
+	width: 50px;
+	height: 50px;
+	transition: 0.6s;
+}
+.logo img:hover{
+	transform: rotate(360deg);
+}
+.daohao{
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+}
+.daohao li a{
+	width: 100px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 60px;
+	text-align: center;
+	transition: 0.6s;
+	color: #000000;
+}
+
+.daohao li a:hover{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 8px;
+}
+
+.text-aa{
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-aa p{
+	font-size: 24px;
+	color: #000;
+	opacity: 0;
+	transition: 0.6s;
+}
+.text-wz h1{
+	font-size: 75px;
+	position: relative;
+	transition: 0.6s;
+}
+.left-wz{
+	color: gainsboro;
+	left: -300%;
+}
+.right-wz{
+	color: #FFFFFF;
+	right: -300%;
+}
+.kdbj{
+	width: 100%;
+	height: 100vh;
+}
+.zwjs{
+	width: 100%;
+	height: 100vh;
+	background-color: #ADADAD;
+	text-align: center;
+}
+.jszj{
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 2px solid gray;
+}
+.tpjs{
+	display: flex;
+	justify-content:space-between;
+	margin: 0 20%;
+	margin-top: 60px;
+	position: absolute;
+}
+.brjs{
+	z-index: 10;
+}
+.tpjs ul{
+	position: relative;
+	transition: 0.6s;
+}
+.ybjs{
+	right: -300%;
+}
+.brjs img{
+	width: 230px;
+	height: 290px;
+	position: relative;
+	transition: 0.6s;
+}
+.img{
+	left: -300%;
+}
+
+.wzjs{
+	width: 200px;
+	height: 295px;
+	border: 4px solid #FFF;
+	position: absolute;
+	top: 5%;
+	left: -5%;
+}
+.tpjs ul{
+	text-align: left;
+	height: 295px;
+	padding-left: 140px;
+}
+.tpjs ul li{
+	font-size: 36px;
+	margin-bottom: 30px;
+	transition: 0.2s;
+}
+.tpjs ul li:hover{
+	color: #fff;
+}
+.lzwl{
+	float: none;
+	margin-top: 440px;
+}
+.lzwl p{
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.wdzy{
+	width: 100%;
+	height: 100vh;
+	background-color: #F7F7F7;
+	text-align: center;
+}
+.zyjn1{
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 2px solid gray;
+}
+.zyjn2,.zyjn3{
+	margin: 0 20%;
+	padding: 50px 0px;
+	display: flex;
+	justify-content: space-between;
+/* 	background-color: red; */
+transition: 0.6s;
+	padding-bottom: 0;
+}
+.zyjn2{
+	position: relative;
+}
+.wdzy ul{
+	left: -300%;
+}
+
+.zyjn3 {
+	padding-top: 0;
+	padding-bottom: 80px;
+}
+.zyjn2 li,.zyjn3 li{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: gray;
+	border-radius: 50px;
+	font-size: 36px;
+}
+.zyjn3 li{
+	border-radius: 0;
+	background-color: #F7F7F7;
+	opacity: 0;
+	transition: 0.6s;
+}
+.wdzy p{
+	font-size: 18px;
+}
+
+.wdzp{
+	width: 100%;
+	height: 1060px;
+	background-color: red;
+	text-align: center;
+	background-image: url(https://s3.ax1x.com/2021/03/11/6tM5F0.md.jpg);
+	background-size: 100% 100%;
+}
+.zpzs1{
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 2px solid gray;
+}
+.zpzs2{
+	width: 90%;
+	height: 860px;
+	margin: 20px 5%;
+	/* background-color: #000000; */
+}
+.zpzs2 ul li{
+	float: left;
+	color: #fff;
+	margin: 20px 20px;
+}
+.zpzs01{
+	width: 350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs02{
+	width: 350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs03{
+	width:350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs04{
+	width: 350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs05{
+	width: 350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs06{
+	width: 350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs07{
+	width: 350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs08{
+	width: 350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs09{
+	width: 350px;
+	height: 240px;
+	overflow: hidden;
+	background-color: red;
+}
+.zpzs01 img,.zpzs02 img,.zpzs03 img,.zpzs04 img,.zpzs05 img,
+.zpzs06 img,.zpzs07 img,.zpzs08 img,.zpzs09 img{
+	width: 350px;
+	height: 240px;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+.zpzs01 img:hover,.zpzs02 img:hover,.zpzs03 img:hover,.zpzs04 img:hover,.zpzs05 img:hover,
+.zpzs06 img:hover,.zpzs07 img:hover,.zpzs08 img:hover,.zpzs09 img:hover{
+	transform: scale(1.6);
+}
+
+
+.ckgd a{
+	font-size: 24px;
+	color: #000000;
+	transition: 0.6s;
+}
+.ckgd a:hover{
+	color: #fff;
+}
+
+.lxfs{
+	width: 100%;
+	height: 260px;
+	background-color: #CCCCCC;
+}
+.lxfs01{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.lxfs01 img{
+	width: 100px;
+	height: 100px;
+}
+.lxfs02{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.lxfs02 img{
+	width: 100px;
+	height: 100px;
+	
+}
+.lxfs03{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.lxfs03 img{
+	width: 100px;
+	height: 100px;
+}
+.lxfs04{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.lxfs04 img{
+	width: 100px;
+	height: 100px;
+}
+.lxfs01,.lxfs02,.lxfs03,.lxfs04{
+	margin-top: 50px;
+	margin-left: 120px;
+}
+.lxfs01 p,.lxfs02 p,.lxfs03 p,.lxfs04 p{
+	font-weight: bold;
+}
